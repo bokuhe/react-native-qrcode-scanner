@@ -17,7 +17,7 @@ import {
 } from 'react-native';
 
 import { request, PERMISSIONS, RESULTS } from 'react-native-permissions';
-import { RNCamera as Camera } from 'react-native-camera';
+import { RNCamera as Camera } from '@bokuhe/react-native-camera';
 
 const CAMERA_FLASH_MODE = Camera.Constants.FlashMode;
 const CAMERA_FLASH_MODES = [
