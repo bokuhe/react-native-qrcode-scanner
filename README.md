@@ -1,5 +1,9 @@
 # react-native-qrcode-scanner
 
+This package was forked from react-native-qrcode-scanner and the permission package was changed to run in the latest version of react native.
+
+----
+
 This library was originally written as a plug and play QRCode scanner for React Native without a ton of setup. Since then, the ecosystem has evolved quite a bit, resulting in newer libraries requiring less setup and reducing the need for this project to exist. As such this library has been archived. 
 
 The recommendation of most developers that were previously using this library is to consider using [react-native-vision-camera](https://github.com/mrousavy/react-native-vision-camera) with its plugin [vision-camera-code-scanner](https://github.com/rodgomesc/vision-camera-code-scanner)
@@ -72,8 +76,8 @@ If using an older version of this module with RCTCamera you will need to follow 
 
 ### To install and start using react-native-qrcode-scanner:
 
-1. `npm install react-native-qrcode-scanner --save`
-2. `react-native link react-native-qrcode-scanner`
+1. `npm install @bokuhe/react-native-qrcode-scanner --save`
+2. `react-native link @bokuhe/react-native-qrcode-scanner`
 
 #### react-native-permissions
 
